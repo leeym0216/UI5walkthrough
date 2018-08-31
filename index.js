@@ -7,6 +7,7 @@ var app = express();
 var port = process.env.PORT || 8080
 
 app.use(express.static(path.join(__dirname, 'webapp')));
+// app.use(express.static(__dirname + '/webapp'));
 
 // routes
 app.get('/', function(req, res){
