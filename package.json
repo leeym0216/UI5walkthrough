@@ -5,9 +5,9 @@
   "engines": {
     "node": "8.9.1"
   },
-  "main": "webapp/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node webapp/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "ejs": "^2.5.7",
