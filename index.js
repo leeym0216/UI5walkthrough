@@ -1,4 +1,4 @@
-var express = require('express');
+var path = require('path'), express = require('express');
 var app = express();
 
 // set port
